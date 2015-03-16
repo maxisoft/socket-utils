@@ -96,7 +96,7 @@ int socketServeur(unsigned short port) {
  ***********************************************************
  */
 
-int socketClient(char  *nomMachine, ushort port) {
+int socketClient(char  *nomMachine, unsigned short port) {
   int sock,               /* descripteur de la socket */
       err;                /* code d'erreur */
 
